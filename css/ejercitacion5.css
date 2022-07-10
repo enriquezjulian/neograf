@@ -1,0 +1,77 @@
+/*===========EJERCITACION 5===================*/
+
+.nav1, .nav2, .nav3, .nav4, .nav5, .nav6{
+    border-style: dashed;
+    text-align: center;
+}
+
+.nav1, .nav2, .nav4, .nav5 {
+    position: relative;
+}
+
+.nav3, .nav6{
+    position: absolute;
+}
+
+
+    .nav1{
+        background-color: #48ff0062;
+        border-color: #48ff00;
+        width: 900px;
+        height: 100px;
+        z-index: 5;
+    }
+
+    .nav2{
+        background-color: #48ff0062;
+        border-color: #48ff00;
+        padding: 20px;
+        width: 900px;
+        height: 100px;
+        top: 450px;
+        z-index: 2;
+    }
+
+    .nav3{
+        background-color: #ff000093;
+        border-color: #ff0000;
+        padding: 20px;
+        z-index: 4;
+        width: 600px;
+        height: 600px;
+        top: 20px;
+        left: 500px;
+    }
+    
+    .nav4{
+        background-color: #ffee0093;
+        border-color: #e5ff00;
+        padding: 20px;
+        z-index: 6;
+        width: 350px;
+        height: 50px;
+        bottom: 200px;
+        left: 600px;
+    }
+
+    .nav5{
+        background-color: #ffee0093;
+        border-color: #e5ff00;
+        padding: 20px;
+        z-index: 1;
+        width: 350px;
+        height: 50px;
+        top: 150px;
+        left: 600px;
+    }
+    
+    .nav6{
+        background-color: #cc00ff93;
+        border-color: #ff00ff;
+        padding-top: 20px;
+        top: 100px;
+        left: 850px;
+        width: 150px;
+        height: 450px;
+        z-index: 3;
+    }
