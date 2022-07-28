@@ -4,48 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi pagina Web</title>
+    <title>NEOGRAF Servicios Graficos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link rel="icon" href="./media/imagenes/logo.jpg">
+    <!-- CSS only Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS Personal -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <img class="icon-logo" src="./media/imagenes/logo.jpg" alt="LOGO" width="100" height="100">
-        <h1>NEOGRAF SERVICIOS GRAFICOS</h1>
-    </header>
+<header>
 <nav>
-    <ul>
-        <li><a href="./index.html">PRINCIPAL</a></li>
-        <li><a href="./pages/nosotros.html" >NOSOTROS</a></li>
-        <li><a href="./pages/servicios.html" >SERVICIOS</a></li>
-        <li><a href="./pages/contacto.html" >CONTACTO</a></li>
-        <li><a href="./pages/Formulario.html" target="_blank">CONSULTAS ONLINE</a></li>
-        <li><a href="./pages/ejercitacion5.html" target="_blank">EJERCITACION 5</a></li>
-     </ul>
- </nav>
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./media/imagenes/logo.jpg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Productos destacados</a></li>
+              <li><a class="dropdown-item" href="#">Almanaques</a></li>
+              <li><a class="dropdown-item" href="#">Autoadhesivos</a></li>
+              <li><a class="dropdown-item" href="#">Gran Formato</a></li>
+              <li><a class="dropdown-item" href="#">Papeleria comercial</a></li>
+              <li><a class="dropdown-item" href="#">Papeles y Resmas</a></li>
+              <li><a class="dropdown-item" href="#">Publicidad</a></li>
+              <li><a class="dropdown-item" href="#">Tarjetas Personales</a></li>
+              <li><a class="dropdown-item" href="#">Volantes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./pages/servicios.html">Servicios</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-consultas-online" href="../pages/Formulario.html">Consultas Online</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    </nav>
+
+</header>
     <br>
     <main>
+        <div class="cardd">
+            <img class="card-img" src="./media/imagenes/history-machine.jpg" class="logo" alt="...">
+              <h5 class="card-title">ACERCA DE NOSOTROS </h5> 
+              <p class="card-text">Conoce un poco de nuestra historia en el rubro</p>
+              <a href="./pages/nosotros.html" class="btn btn-primary">Nuestra historia</a>
+        </div>
+
+        <div class="cardd">
+            <img class="card-img" src="./media/imagenes/productos-de-imprenta.jpg" class="logo" alt="...">
+              <h5 class="card-title">NUESTROS PRODUCTOS </h5> 
+              <p class="card-text">Conoce todos los productos que tenemos para ofrecerte</p>
+              <a href="./pages/contacto.html" class="btn btn-primary">Nuestros Productos</a>
+        </div>
+
+        <div class="cardd">
+            <img class="card-img" src="./media/imagenes/service-image.jpg" class="logo" alt="...">
+              <h5 class="card-title">NUESTROS SERVICIOS </h5> 
+              <p class="card-text">Conoce todos los servicios que tenemos para ofrecerte</p>
+              <a href="./pages/contacto.html" class="btn btn-primary">Nuestros Servicios</a>
+        </div>
     <font face="Arial, Verdana">
     <p><b>Neograf</b> le brinda el camino directo hacia el crecimiento de su producto, promocionándolo mediante las más variadas piezas publicitarias. Con la más alta tecnología que como resultado genera excelente calidad de impresión.</p>
-        <br>
-    <p>En el mercado actual es imprescindible obtener los mejores resultados de impresión, en tiempos cada vez más cortos con cotizaciones únicas sin prescindir de la calidad por sobre todas las variables.</p>
-        <br>  
-    <p>Desde el diseño hasta la materialización de sus ideas, podemos brindarle, lo que hace que en conjunto con un gran plantel humano y asesores capacitados generen un compromiso extremo para con usted, de seguridad y garantía.</p>
-        <br>
-    <p><b><em> Este conjunto de factores, afianzados a través de los años experimentados, junto a una amplia variedad de maquinarias y sistemas de impresión de manera convencional / digital / serigrafía / tampografía / grabados láser / grabados al ácido / sublimación / solvente / resinados / corpóreos / etc, tienen por finalidad y como objetivo suplir las necesidades de cada cliente de forma personalizada.</em></b></p>
-    <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil veniam sit nemo quam temporibus amet odio quae excepturi quod cum. At veritatis velit iste culpa totam harum dolorum numquam consectetur?</p>
-    <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, saepe nisi vero atque distinctio sequi voluptatum placeat molestias repudiandae id nulla tempore blanditiis illo. Exercitationem deleniti eveniet ea harum.</p>
-    <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, saepe nisi vero atque distinctio sequi voluptatum placeat molestias repudiandae id nulla tempore blanditiis illo. Exercitationem deleniti eveniet ea harum.</p>
-    <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad, saepe nisi vero atque distinctio sequi voluptatum placeat molestias repudiandae id nulla tempore blanditiis illo. Exercitationem deleniti eveniet ea harum.</p>
-
     </font>
-    <br>
+
 
 </main>
 <br>
@@ -56,7 +95,17 @@
 <br>
 <br>
 <footer>
-    Sitio web diseñado y desarrollado por Enriquez Julian (2022). Todos los derechos reservados.
+  <a href="./Index.html"><img src="./media/imagenes/logo.jpg" alt="logo"></a>
+        
+  <div class="social-red-foot">
+      <a href="www.facebook.com"><img src="./media/imagenes/logoface.png" alt="logofb" width="40px" height="40px"></a>
+      <a href="www.instagram.com"><img src="./media/imagenes/logoinsta.png" alt="logoinsta" width="40px" height="40px"></a>
+      <a href="www.web.whatsapp.com"><img src="./media/imagenes/logowsp.png" alt="logowsp" width="40px" height="40px"></a>
+  </div>
+      <p>Sitio web diseñado y desarrollado por Enriquez Julian (2022). Todos los derechos reservados.</p>
+      
 </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
